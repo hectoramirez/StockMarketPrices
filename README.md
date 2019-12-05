@@ -5,7 +5,7 @@ In this notebook, we give a simple example of data manipulation, feature extract
 
 Codes presented in Jupyter notebooks:
 
-
+https://nbviewer.jupyter.org/github/hectoramirez/TimeSeries-ML/blob/master/TimeSeries_ML.ipynb
 
 
 
