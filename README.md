@@ -1,13 +1,21 @@
-# Time Series and Machine Learning
-<hr>
+# Predicting stock market prices
+---
+__Data manipulation, feature extraction, prediction and cross-validation of stock market prices time series.__ 
 
-In this notebook, we give a simple example of data manipulation, feature extraction and model fitting using stock time series. The dataset to be used contains information about company market values over several years. This is one of the most popular kind of time series data used for regression. If one can model the value of a company as it changes over time, <i>we can make predictions about where that company will be in the future</i>.
+Full analysis of time series manipulation and predictions using data from historical stock market prices.
 
-Codes presented in Jupyter notebooks:
+[![Licence](https://img.shields.io/badge/Licence-MIT-red)](https://opensource.org/licenses/MIT)
+![TSeries](https://img.shields.io/badge/-Time%20Series-informational)
 
-https://nbviewer.jupyter.org/github/hectoramirez/TimeSeries-ML/blob/master/TimeSeries_ML.ipynb
+![Series](plots/plot_hist.png)
+![Series](plots/plot.png)
 
 
-
-
-HR
+### COVID19_notebook.ipynb
+___
+Along the notebook, we
+1. Load, transform and clean the data.
+2. Engineer statistical and time-lagged features.
+3. Fit and predict regression models.
+4. Perform K-fold and TimeSeriesSplit cross-validation.
+5. Study the stability of the model's coefficients and of its predictive power across CV splits.
